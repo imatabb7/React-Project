@@ -1,6 +1,17 @@
 {
-  "users": [ ],
-  "cart": [],
+  "users": [],
+  "cart": [
+    {
+      "id": "3",
+      "title": "Data Science Real-Life Data Science Exercises Included",
+      "price": 22.14,
+      "lessons": 14,
+      "level": "Expert",
+      "tutor": "alen mask",
+      "image": "./src/assets/images/course_img_3.jpg",
+      "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
+    }
+  ],
   "courses": [
     {
       "id": "1",

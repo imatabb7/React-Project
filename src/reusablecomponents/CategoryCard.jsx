@@ -20,7 +20,7 @@ const CategoryCard = ({icon , title }) => {
   };
 
   return (
-    <div className='category-card' style={{backgroundImage: URL(cardbg)}}>
+    <div className='category-card' >
       <a href='' className='category-card-item custom' onMouseMove={handleMouseMove} 
       onMouseLeave={handleMouseLeave} style={style} >
        <span className='card-icon'>
