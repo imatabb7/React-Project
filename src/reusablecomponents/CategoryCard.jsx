@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import cardbg from "../../src/assets/images/dot_shape_3.png";
 
 const CategoryCard = ({icon , title }) => {
   const [transform, setTransform] = useState({ x: 0, y: 0 });
@@ -19,7 +20,7 @@ const CategoryCard = ({icon , title }) => {
   };
 
   return (
-    <div className='category-card'>
+    <div className='category-card' style={{backgroundImage: URL(cardbg)}}>
       <a href='' className='category-card-item custom' onMouseMove={handleMouseMove} 
       onMouseLeave={handleMouseLeave} style={style} >
        <span className='card-icon'>

@@ -11,6 +11,11 @@ import Counter from '../../reusablecomponents/CounterSection';
 import SlikList from '../../reusablecomponents/SlickList';
 import Testimonial from '../../reusablecomponents/Testimonial';
 import GetStart from '../../reusablecomponents/GetStart';
+import icon1 from "../../assets/images/icon_test_tube.png";
+import icon2 from "../../assets/images/icon_calendar.png";
+import icon3 from "../../assets/images/icon_design.png";
+import icon4 from "../../assets/images/icon_briefcase.png";
+
 
 
 const Home = () => {
@@ -126,16 +131,16 @@ const Home = () => {
         </div>
         <div className='row'>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Chemistry"} icon={"./src/assets/images/icon_test_tube.png"}  />
+            <CategoryCard title={"Chemistry"} icon={icon1}  />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Managment"} icon={"./src/assets/images/icon_calendar.png"} />
+            <CategoryCard title={"Managment"} icon={icon2} />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Fine Art"} icon={"./src/assets/images/icon_design.png"} />
+            <CategoryCard title={"Fine Art"} icon={icon3} />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Business"} icon={"./src/assets/images/icon_briefcase.png"} />
+            <CategoryCard title={"Business"} icon={icon4} />
           </div>
         </div>
         <div className='show-more1 d-block d-lg-none text-center'>
