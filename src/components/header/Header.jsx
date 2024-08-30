@@ -204,5 +204,3 @@ const Header = () => {
 }
 
 export default Header
-
-{/* <div class="cartmini__checkout"><div class="cartmini__checkout-title"><h4>Subtotal:</h4><span>$49.00</span></div></div> */}

@@ -126,16 +126,16 @@ const Home = () => {
         </div>
         <div className='row'>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Chemistry"} icon={"src/assets/images/icon_test_tube.png"}  />
+            <CategoryCard title={"Chemistry"} icon={"./src/assets/images/icon_test_tube.png"}  />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Managment"} icon={"src/assets/images/icon_calendar.png"} />
+            <CategoryCard title={"Managment"} icon={"./src/assets/images/icon_calendar.png"} />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Fine Art"} icon={"src/assets/images/icon_design.png"} />
+            <CategoryCard title={"Fine Art"} icon={"./src/assets/images/icon_design.png"} />
           </div>
           <div className='col1 col-lg-3 col-md-6 col-sm-6'>
-            <CategoryCard title={"Business"} icon={"src/assets/images/icon_briefcase.png"} />
+            <CategoryCard title={"Business"} icon={"./src/assets/images/icon_briefcase.png"} />
           </div>
         </div>
         <div className='show-more1 d-block d-lg-none text-center'>

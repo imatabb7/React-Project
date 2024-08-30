@@ -45,18 +45,3 @@ const Cursor = () => {
 }
 
 export default Cursor
-
-{/* <AnimatedCursor
-color='0,0,0'
-// color="#fff"
-innerSize={8}
-outerSize={35}
-innerScale={1}
-outerScale={1.7}
-outerAlpha={0}
-showSystemCursor={true}
-
-outerStyle={{
-  mixBlendMode: 'exclusion'
-}}
-/> */}
