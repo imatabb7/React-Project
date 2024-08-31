@@ -3,6 +3,8 @@ import Banner from '../../components/banner/Banner'
 import ContactCard from '../../reusablecomponents/ContactCard'
 import { FaRegPaperPlane } from 'react-icons/fa'
 import GetStart from '../../reusablecomponents/GetStart'
+import icon1 from "../../assets/images/icon_support.png";
+import icon2 from "../../assets/images/icon_email.png";
 
 const Contact = () => {
   useEffect(() => {
@@ -22,13 +24,13 @@ const Contact = () => {
         <div className='section1'>
           <div className='row justify-content-center'>
             <div className='col1 col-lg-4'>
-              <ContactCard title={"Our Telephone"} listItem1={"+1(800)123-4566"} listItem2={"+458-123-657-2324"} icon={"src/assets/images/icon_support.png"}/>
+              <ContactCard title={"Our Telephone"} listItem1={"+1(800)123-4566"} listItem2={"+458-123-657-2324"} icon={icon1}/>
             </div>
             <div className='col1 col-lg-4'>
-              <ContactCard title={"Send us mail"} listItem1={"udemo@email.com"} listItem2={"help@ourmail.com"} icon={"src/assets/images/icon_email.png"}/>
+              <ContactCard title={"Send us mail"} listItem1={"udemo@email.com"} listItem2={"help@ourmail.com"} icon={icon2}/>
             </div>
             <div className='col1 col-lg-4'>
-              <ContactCard title={"Address"} item1={"176 W street name,"} item2={"New York, NY 10014"} icon={"src/assets/images/icon_support.png"}/>
+              <ContactCard title={"Address"} item1={"176 W street name,"} item2={"New York, NY 10014"} icon={icon1}/>
             </div>
           </div>
 
