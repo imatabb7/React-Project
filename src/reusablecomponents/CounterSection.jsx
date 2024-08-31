@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import shape3 from '../assets/images/shape_3.png';
+import lineshape3 from '../assets/images/line_shape_3.png';
+import dotshape4 from '../assets/images/dot_shape_4.png';
+import shape4 from '../assets/images/shape_4.png';
+
 
 const Counter = () => {
     const [counterState , setCounterState] = useState(false);
@@ -84,16 +89,16 @@ const Counter = () => {
         </ScrollTrigger>
         <ScrollTrigger onEnter={()=> setScrollY(800)} onExit={()=> setScrollY(0)}>
             <div className='counter-item counter-item1' style={Style1}>
-                <img src='src/assets/images/shape_3.png'/>
+                <img src={shape3}/>
             </div>
             <div className='counter-item counter-item2' style={Style2}>
-                <img src='src/assets/images/line_shape_3.png'/>
+                <img src={lineshape3}/>
             </div>
             <div className='counter-item counter-item3' style={Style3}>
-               <img src='src/assets/images/dot_shape_4.png'/>
+               <img src={dotshape4}/>
             </div>
             <div className='counter-item counter-item4' style={Style4}>
-                <img src='src/assets/images/shape_4.png'/>
+                <img src={shape4}/>
             </div>
         </ScrollTrigger>
     </>

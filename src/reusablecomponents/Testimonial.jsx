@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import iconchat from "../assets/images/icon_chat.png";
+import img1 from "../assets/images/testimonial_img_1.jpg";
+import dotshape2 from "../assets/images/dot_shape_2.png";
+import lineshape2 from "../assets/images/line_shape_1.png";
 
 const Testimonial = () => {
     const item1Ref = useRef(null);
@@ -51,7 +55,7 @@ const Testimonial = () => {
                 <div className='col1'>
                     <div className='testimonial-items'>
                         <div className='image'>
-                            <img src='src/assets/images/testimonial_img_1.jpg'/>
+                            <img src={img1}/>
                         </div>
                         <div className='info'>
                             <div className='heading'>
@@ -60,7 +64,7 @@ const Testimonial = () => {
                                 </h3>
                             </div>
                             <div className='icon'>
-                                <img src='src/assets/images/icon_chat.png'/>
+                                <img src={iconchat}/>
                             </div>
                             <p>We could actually read something and then practice it right away and get feedback on it. The other platforms were more theoretical and expected you to go figure out
                             </p>
@@ -72,7 +76,7 @@ const Testimonial = () => {
                 <div className='col1'>
                     <div className='testimonial-items'>
                         <div className='image'>
-                            <img src='src/assets/images/testimonial_img_1.jpg'/>
+                            <img src={img1}/>
                         </div>
                         <div className='info'>
                             <div className='heading'>
@@ -81,7 +85,7 @@ const Testimonial = () => {
                                 </h3>
                             </div>
                             <div className='icon'>
-                                <img src='src/assets/images/icon_chat.png'/>
+                                <img src={iconchat}/>
                             </div>
                             <p>We could actually read something and then practice it right away and get feedback on it. The other platforms were more theoretical and expected you to go figure out
                             </p>
@@ -93,7 +97,7 @@ const Testimonial = () => {
                 <div className='col1'>
                     <div className='testimonial-items'>
                         <div className='image'>
-                            <img src='src/assets/images/testimonial_img_1.jpg'/>
+                            <img src={img1}/>
                         </div>
                         <div className='info'>
                             <div className='heading'>
@@ -102,7 +106,7 @@ const Testimonial = () => {
                                 </h3>
                             </div>
                             <div className='icon'>
-                                <img src='src/assets/images/icon_chat.png'/>
+                                <img src={iconchat}/>
                             </div>
                             <p>We could actually read something and then practice it right away and get feedback on it. The other platforms were more theoretical and expected you to go figure out
                             </p>
@@ -114,10 +118,10 @@ const Testimonial = () => {
         </Slider>
         </div>
             <div className='testimonial-item testimonial-item1' ref={item1Ref} style={Style1}>
-                <img src='src/assets/images/dot_shape_2.png'/>
+                <img src={dotshape2}/>
             </div>
             <div className='testimonial-item testimonial-item2' ref={item2Ref} style={Style2}>
-                <img src='src/assets/images/line_shape_1.png'/>
+                <img src={lineshape2}/>
             </div>
         </div>
       </div>

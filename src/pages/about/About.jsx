@@ -5,6 +5,9 @@ import { FaArrowRightLong } from 'react-icons/fa6'
 import SlikList from '../../reusablecomponents/SlickList'
 import Counter from '../../reusablecomponents/CounterSection'
 import Testimonial from '../../reusablecomponents/Testimonial'
+import aboutimg1 from "../../assets/images/about_img_1.jpg"
+import aboutimg2 from "../../assets/images/about_img_2.jpg"
+import aboutimg3 from "../../assets/images/about_img_3.jpg"
 
 const About = () => {
   useEffect(() => {
@@ -25,7 +28,7 @@ const About = () => {
           <div className='col1 col-lg-5'>
             <div className='about-image'>
               <div className='image'>
-                <img src='src/assets/images/about_img_1.jpg'/>
+                <img src={aboutimg1}/>
               </div>
 
             </div>
@@ -70,7 +73,7 @@ const About = () => {
           <div className='col1 col-lg-4 col-md-6'>
             <div className='item'>
               <div className='image'>
-                <img src='src/assets/images/about_img_2.jpg'/>
+                <img src={aboutimg2}/>
               </div>
               <div className='content'>
                 <h3 className='title'> Our History </h3>
@@ -81,7 +84,7 @@ const About = () => {
           <div className='col1 col-lg-4 col-md-6'>
             <div className='item'>
               <div className='image'>
-                <img src='src/assets/images/about_img_3.jpg'/>
+                <img src={aboutimg3}/>
               </div>
               <div className='content'>
                 <h3 className='title'> Our Mission </h3>

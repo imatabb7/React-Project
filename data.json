@@ -57,7 +57,7 @@
       "lessons": 10,
       "level": "Beginner",
       "tutor": "Jenny william",
-      "image": "./src/assets/images/course_img_5.jpg",
+      "image": "../src/assets/images/course_img_5.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {

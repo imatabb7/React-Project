@@ -15,6 +15,15 @@ import icon1 from "../../assets/images/icon_test_tube.png";
 import icon2 from "../../assets/images/icon_calendar.png";
 import icon3 from "../../assets/images/icon_design.png";
 import icon4 from "../../assets/images/icon_briefcase.png";
+import bannerimg1 from "../../assets/images/banner_img_1.png";
+import bannerimg2 from "../../assets/images/banner_img_2.png";
+import bannerimg3 from "../../assets/images/banner_img_3.png";
+import shape1 from "../../assets/images/shape_1.png";
+import shape2 from "../../assets/images/shape_2.png";
+import lineshape2 from "../../assets/images/line_shape_2.png";
+import blogimg1 from "../../assets/images/blog_img_1.jpg";
+import blogimg2 from "../../assets/images/blog_img_2.jpg";
+import blogimg3 from "../../assets/images/blog_img_3.jpg";
 
 
 
@@ -74,15 +83,15 @@ const Home = () => {
       <div className='col-lg-6 order-lg-last col1'>
         <div className='banner-images'>
           <div className=' banner-image banner-image1 animate__animated animate__fadeInUp'>
-            <img src='src/assets/images/banner_img_1.png'/>
+            <img src={bannerimg1}/>
 
           </div>
           <div className=' banner-image banner-image2 animate__animated animate__fadeInUp'>
-            <img src='src/assets/images/banner_img_2.png'/>
+            <img src={bannerimg2}/>
 
           </div>
           <div className=' banner-image banner-image3 animate__animated animate__fadeInUp'>
-            <img src='src/assets/images/banner_img_3.png'/>
+            <img src={bannerimg3}/>
 
           </div>
         </div>
@@ -169,13 +178,13 @@ const Home = () => {
             </div>
           </div>
           <div className='member-item1' ref={item1Ref} style={Style1} >
-            <img src='src/assets/images/shape_1.png'/>
+            <img src={shape1}/>
           </div>
           <div className='member-item2' ref={item2Ref} style={Style2}>
-            <img src='src/assets/images/shape_2.png'/>
+            <img src={shape2}/>
           </div>
           <div className='member-item3' ref={item3Ref} style={Style3}>
-            <img src='src/assets/images/line_shape_2.png'/>
+            <img src={lineshape2}/>
           </div>
         </div>
       </div>
@@ -241,7 +250,7 @@ const Home = () => {
           <div className='col1 col-lg-6 col-sm-10'>
             <div className="blog-item">
               <a className='image' href=''>
-                <img src="src/assets/images/blog_img_1.jpg" alt="Blog Image"/>
+                <img src={blogimg1} alt="Blog Image"/>
               </a>
               <div className="content">
                 <ul className="post-meta ">
@@ -263,7 +272,7 @@ const Home = () => {
           <div className='col1 col-lg-3 col-sm-10'>
           <div className="blog-item">
               <a className='image' href='#!'>
-                <img src="src/assets/images/blog_img_2.jpg" alt="Blog Image"/>
+                <img src={blogimg2} alt="Blog Image"/>
               </a>
               <div className="content">
                 <ul className="post-meta ">
@@ -282,7 +291,7 @@ const Home = () => {
           <div className='col1 col-lg-3 col-sm-10'>
           <div className="blog-item">
               <a className='image' href=''>
-                <img src="src/assets/images/blog_img_3.jpg" alt="Blog Image"/>
+                <img src={blogimg3} alt="Blog Image"/>
               </a>
               <div className="content">
                 <ul className="post-meta ">

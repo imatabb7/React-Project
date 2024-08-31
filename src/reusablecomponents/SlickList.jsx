@@ -2,25 +2,15 @@ import React, { useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import React, { Component } from "react";
+import img1 from "../assets/images/sponsor_logo_1.png";
+import img2 from "../assets/images/sponsor_logo_2.png";
+import img3 from "../assets/images/sponsor_logo_3.png";
+import img4 from "../assets/images/sponsor_logo_4.png";
+import img5 from "../assets/images/sponsor_logo_5.png";
+
 
 const SlikList = () => {
       const [transform, setTransform] = useState({ x: 0, y: 0 });
-
-    // const handleMouseMove = (e) => {
-    //   const card = e.currentTarget.getBoundingClientRect();
-    //   const x = e.clientX - card.left - card.width / 2;
-    //   const y = e.clientY - card.top - card.height / 2;
-    //   setTransform({ x: x / 5, y: y / 5});
-    // };
-  
-    // const handleMouseLeave = () => {
-    //   setTransform({ x: 0, y: 0 });
-    // };
-    // const style = {
-    //   transform: `translate(${transform.x}px, ${transform.y}px)`,
-    //   transition: 'transform 0.09s ease-in-out',
-    // };
         var settings = {
           infinite: true,
           slidesToShow: 6,
@@ -61,52 +51,52 @@ const SlikList = () => {
             <Slider {...settings}>
               <li>
                 <a href='!#' className='' >
-                  <img src='src/assets/images/sponsor_logo_1.png'/>
+                  <img src={img1}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className=''>
-                  <img src='src/assets/images/sponsor_logo_2.png'/>
+                  <img src={img2}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className='' >
-                  <img src='src/assets/images/sponsor_logo_3.png'/>
+                  <img src={img3}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className='' >
-                  <img src='src/assets/images/sponsor_logo_4.png'/>
+                  <img src={img4}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className='' >
-                  <img src='src/assets/images/sponsor_logo_5.png'/>
+                  <img src={img5}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className='' >
-                  <img src='src/assets/images/sponsor_logo_1.png'/>
+                  <img src={img1}/>
                 </a>
               </li>
               <li>
                 <a href='!#' className=''>
-                  <img src='src/assets/images/sponsor_logo_2.png'/>
+                  <img src={img2}/>
                 </a>
               </li>
               <li>
-                <a href='!#' className=''>
-                  <img src='src/assets/images/sponsor_logo_3.png'/>
+                <a href='!#' className='' >
+                  <img src={img3}/>
                 </a>
               </li>
               <li>
-                <a href='!#' className=''>
-                  <img src='src/assets/images/sponsor_logo_4.png'/>
+                <a href='!#' className='' >
+                  <img src={img4}/>
                 </a>
               </li>
               <li>
-                <a href='!#' className=''>
-                  <img src='src/assets/images/sponsor_logo_5.png'/>
+                <a href='!#' className='' >
+                  <img src={img5}/>
                 </a>
               </li>
             </Slider>
