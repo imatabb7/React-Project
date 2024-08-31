@@ -27,7 +27,7 @@ const SignUp = () => {
 
     try {
       const userData = { email, password };
-      await axios.post('http://localhost:3000/users', { userData });
+      await axios.post('http://localhost:8000/users', { userData });
       setSign("Signed successfully");
 
       

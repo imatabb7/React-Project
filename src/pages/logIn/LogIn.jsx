@@ -6,7 +6,7 @@ import axios from 'axios';
 const LogIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const[log , setLog] = useState('');
+  const [log , setLog] = useState('');
   const [error, setError] = useState('');
 
 
@@ -18,12 +18,13 @@ const LogIn = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.get('http://localhost:3000/users', {
+      const response = await axios.get('http://localhost:8000/users', {
         params: { email, password }
       });
 
       if (response.data.length > 0) {
-          setLog('User authenticated');
+          console.log("User authenticated");
+          
       } else {
           setError('Invalid email or password');
       }

@@ -1,5 +1,13 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "83ea",
+      "userData": {
+        "email": "uuu@gmail.com",
+        "password": "1234"
+      }
+    }
+  ],
   "cart": [],
   "courses": [
     {

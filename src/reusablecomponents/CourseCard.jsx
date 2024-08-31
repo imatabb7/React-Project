@@ -1,11 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { BsArrowRight } from "react-icons/bs";
 import { GoBook } from "react-icons/go";
-import { FaBars, FaCartPlus } from "react-icons/fa6";
-import { Link, useParams } from 'react-router-dom';
-import { CartContext } from '../hooks/CartCounterContext';
+import { FaBars } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+import { CartContext } from '../hooks/CartContext';
 import { addToCart, getCart } from '../api/cart';
-import { getSingleCourse } from '../api/courses';
 
 const CourseCard = ({course }) => {
     const [popCard , setPopCard] = useState(false);

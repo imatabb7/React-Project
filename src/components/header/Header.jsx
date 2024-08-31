@@ -6,7 +6,7 @@ import { PiShoppingCart } from "react-icons/pi";
 import { FiUser } from "react-icons/fi";
 import { FiUserPlus } from "react-icons/fi";
 import { IsMobileContext } from '../../utilies/isMobile';
-import { CartContext } from '../../hooks/CartCounterContext';
+import { CartContext } from '../../hooks/CartContext';
 import { IoMdClose } from "react-icons/io";
 import { getCart, removeFromCart } from '../../api/cart';
 import logo from "../../assets/images/site_logo.png";
@@ -17,7 +17,6 @@ const Header = () => {
   const { isMobile } = useContext(IsMobileContext);
   const [activeMenu , setActiveMenu] = useState(false);
   const [stickyHeader , setStickyHeader] = useState(false);
-  // const [cart, setCart] = useState([]);
   const [popCart , setPopCart] =useState(false);
   
   
@@ -80,7 +79,7 @@ const Header = () => {
                       <NavLink to="" className={"nav-list-item"} >home</NavLink>
                       <NavLink to={"/about"} className={"nav-list-item"} >about</NavLink>
                       <NavLink to={"/courses"} className={"nav-list-item"} >courses</NavLink>
-                      {/* <NavLink to={"/blog"} className={"nav-list-item"} >blog</NavLink> */}
+                      <NavLink to={"/blog"} className={"nav-list-item"} >blog</NavLink>
                       <NavLink to={"/contact"} className={"nav-list-item"} >contact</NavLink>
                     </ul>
                 </div>
@@ -91,7 +90,7 @@ const Header = () => {
                       <NavLink to="" className={"nav-list-item"} >home</NavLink>
                       <NavLink to={"/about"} className={"nav-list-item"} >about</NavLink>
                       <NavLink to={"/courses"} className={"nav-list-item"} >courses</NavLink>
-                      {/* <NavLink to={"/blog"} className={"nav-list-item"} >blog</NavLink> */}
+                      <NavLink to={"/blog"} className={"nav-list-item"} >blog</NavLink>
                       <NavLink to={"/contact"} className={"nav-list-item"} >contact</NavLink>
                     </ul>
                 </div>

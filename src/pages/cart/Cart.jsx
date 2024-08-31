@@ -2,9 +2,9 @@ import React, { useContext, useEffect, useState } from 'react'
 import Banner from '../../components/banner/Banner'
 import { Link, useParams } from 'react-router-dom';
 import { IoMdClose } from 'react-icons/io';
-import { CartContext } from '../../hooks/CartCounterContext';
+import { CartContext } from '../../hooks/CartContext';
 import { getCart, removeFromCart } from '../../api/cart';
-import { getSingleCourse } from '../../api/courses';
+
 
 const Cart = () => {
     useEffect(() => {

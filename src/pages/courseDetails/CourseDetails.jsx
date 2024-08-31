@@ -13,15 +13,13 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import GetStart from '../../reusablecomponents/GetStart';
-import { useLocation, useParams } from 'react-router-dom';
-import { CartContext } from '../../hooks/CartCounterContext';
+import {  useParams } from 'react-router-dom';
+import { CartContext } from '../../hooks/CartContext';
 import { addToCart, getCart } from '../../api/cart';
 import { getSingleCourse } from '../../api/courses';
 import thumbnailimg from "../../assets/images/thumbnail_img_2.png";
 import courseimg from "../../assets/images/course_details_img.jpg";
 
-
-// import { getCourses } from '../../api/courses';
 
 const CourseDetails = () => {
   useEffect(() => {
