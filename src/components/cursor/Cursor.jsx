@@ -7,7 +7,7 @@ const Cursor = () => {
   return (
     <>
 {
-  !isMobile(
+  !isMobile && (
     <AnimatedCursor 
       innerSize={0}
       outerSize={10}
