@@ -87,7 +87,7 @@ const Header = () => {
                 )}
                 {isMobile && (
                   <div className={`nav-menu-mobile ${activeMenu ? "active" : ""}`}>
-                    <ul className='nav-menu-list'>
+                    <ul className='nav-menu-list' onClick={()=>{setActiveMenu(false)}}>
                       <NavLink to="" className={"nav-list-item"} >home</NavLink>
                       <NavLink to={"/about"} className={"nav-list-item"} >about</NavLink>
                       <NavLink to={"/courses"} className={"nav-list-item"} >courses</NavLink>
@@ -150,8 +150,8 @@ const Header = () => {
         <div className='inner-cart'>
           {cartItems.length > 0 ? (
             cartItems.map((item) => (
-              <div className='inner'>
-                <div key={item.id} className='cart-item'>
+              <div className='inner'  key={item.id}>
+                <div className='cart-item'>
                   <h5>{item.title}</h5>
                   <p>Price: {item.price}$</p>
                   <button className='' onClick={()=>{handleRemove(item.id)}}><IoMdClose className='icon'/></button>

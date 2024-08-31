@@ -41,9 +41,9 @@ const Courses = () => {
           </div>
         </div>
         </div>
-        <div className='row'>
+        <div className='row' >
           {courses.map((course) => (
-          <div className='col1 col-lg-3 col-md-6 col-sm-6'>
+          <div className='col1 col-lg-3 col-md-6 col-sm-6' key={course.id}>
             <CourseCard key={course.id} setCourses={setCourses} course={course}/>
           </div>
           ))}

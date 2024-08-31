@@ -74,7 +74,7 @@ const Home = () => {
       <div className='col-lg-6 order-lg-last col1'>
         <div className='banner-images'>
           <div className=' banner-image banner-image1 animate__animated animate__fadeInUp'>
-            <img src='src/assets/images/banner_img_1.png'/>
+            <img src='../../assets/images/banner_img_1.png'/>
 
           </div>
           <div className=' banner-image banner-image2 animate__animated animate__fadeInUp'>
