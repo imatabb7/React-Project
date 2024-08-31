@@ -1,4 +1,3 @@
-// import Courses from "../pages/courses/Courses";
 import axios from "./axios";
 import { END_POINTS } from "./endpoints";
 
