@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import AnimatedCursor from 'react-animated-cursor'
+import { IsMobileContext } from '../../utilies/isMobile'
 
 const Cursor = () => {
+  const {isMobile }= useContext(IsMobileContext);
   return (
     <>
-
+{
+  !isMobile(
     <AnimatedCursor 
       innerSize={0}
       outerSize={10}
@@ -39,6 +42,10 @@ const Cursor = () => {
         }
       ]}
     />
+
+  )
+}
+    
       
     </>
   )
