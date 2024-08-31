@@ -9,7 +9,7 @@
       "lessons": 12,
       "level": "Beginner",
       "tutor": "alen mask",
-      "image": "/assets/images/course_img_1.jpg",
+      "image": "/images/course_img_1.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -19,7 +19,7 @@
       "lessons": 12,
       "level": "Intermediate",
       "tutor": "John miller",
-      "image": "/assets/images/course_img_2.jpg",
+      "image": "/images/course_img_2.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -29,7 +29,7 @@
       "lessons": 14,
       "level": "Expert",
       "tutor": "alen mask",
-      "image": "/assets/images/course_img_3.jpg",
+      "image": "/images/course_img_3.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -39,7 +39,7 @@
       "lessons": 8,
       "level": "Beginner",
       "tutor": "Jenny william",
-      "image": "/assets/images/course_img_4.jpg",
+      "image": "/images/course_img_4.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -49,7 +49,7 @@
       "lessons": 10,
       "level": "Beginner",
       "tutor": "Jenny william",
-      "image": "/assets/images/course_img_5.jpg",
+      "image": "/images/course_img_5.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -59,7 +59,7 @@
       "lessons": 15,
       "level": "Expert",
       "tutor": "Matthew ",
-      "image": "/assets/images/course_img_6.jpg",
+      "image": "/images/course_img_6.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -69,7 +69,7 @@
       "lessons": 12,
       "level": "Intermediate",
       "tutor": "Liza Lou",
-      "image": "/assets/images/course_img_7.jpg",
+      "image": "/images/course_img_7.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     },
     {
@@ -79,7 +79,7 @@
       "lessons": 5,
       "level": "Intermediate",
       "tutor": "Junior Lucy",
-      "image": "/assets/images/course_img_8.jpg",
+      "image": "/images/course_img_8.jpg",
       "description": "Changing lives, businesses, and nations through talent transformation in digital technologies."
     }
   ]
