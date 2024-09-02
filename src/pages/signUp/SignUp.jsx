@@ -4,6 +4,7 @@ import { FaRegPaperPlane, FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from 'react-icons/fa6';
 import { FaGoogle } from "react-icons/fa";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 
 
@@ -30,7 +31,7 @@ const SignUp = () => {
       await axios.post('http://localhost:8000/users', { userData });
       setSign("Signed successfully");
 
-      
+
       console.log('user data:', userData);
     } catch (error) {
       setError('Failed to register');
@@ -58,13 +59,13 @@ const SignUp = () => {
                   <input type="password" name="confirmpassword" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} />
                 </div>
                 
-                <button type="submit" class="btn mb-5">
+                <Link type="submit" class="btn mb-5" to={"/"}>
                   <span>
                     <small>Signup Now</small>
                     <small>Signup Now</small>
                   </span>
                   <FaRegPaperPlane className='ms-2' />
-                </button>
+                </Link>
                 {error && <p className="text-danger">{error}</p>}
                 {sign && <p className="text-primary">{sign}</p>}
                 <p class="text-center">Or Login With</p>

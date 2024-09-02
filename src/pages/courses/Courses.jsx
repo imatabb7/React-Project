@@ -26,18 +26,10 @@ const Courses = () => {
       <div className='container'>
         <div className='section-header'>
         <div className='row align-items-center'>
-          <div className='col-lg-6 col1'>
-            <h2 className='section-title mb-0'>
+          <div className='col-12 col1'>
+            <h2 className='section-title mb-0 text-center' >
               Most popular <span class="focus-text">courses</span>
             </h2>
-          </div>
-          <div className='col-lg-6 col1 d-lg-flex d-none justify-content-end'>
-            <div className='show-more'>
-              <a href='#' >
-              Explore All Courses
-              <MdKeyboardDoubleArrowRight className='icon'/>
-              </a>
-            </div>
           </div>
         </div>
         </div>
@@ -47,12 +39,6 @@ const Courses = () => {
             <CourseCard key={course.id} setCourses={setCourses} course={course}/>
           </div>
           ))}
-        </div>
-        <div className='show-more1 d-block d-lg-none text-center'>
-          <a href='#' >
-            Explore All Courses
-            <MdKeyboardDoubleArrowRight className='icon'/>
-          </a>
         </div>
       </div>
     </section>

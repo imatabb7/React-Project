@@ -114,13 +114,13 @@ const Header = () => {
                   </div> */}
                   </li>
                   <li className='login custom'>
-                    <Link to="/logIn" className='login-btn '>
+                    <Link to="/login" className='login-btn '>
                     <FiUser className=' login-icon header-icon' />
                     <span >Login</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/SignUp" className='sign-btn'>
+                    <Link to="/Signup" className='sign-btn'>
                     <FiUserPlus className='sign-icon header-icon'/>
                     <span>
                     <small>Sign Up </small>

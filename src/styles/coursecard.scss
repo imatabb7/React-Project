@@ -2,11 +2,9 @@
     background-color: $white-color;
     border: 1px solid #ebebeb;
     transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-    // overflow: hidden;
     position: relative;
     .card-image{
         transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-        // position: relative;
         .image{
             position: relative;
             overflow: hidden;
@@ -221,12 +219,3 @@
         }
     }
 }
-// .course-card{
-//     &:hover{
-//         .card-popUp{
-//             display: block;
-//             visibility: visible;
-//             opacity: 1;
-//         }
-//     }
-// }

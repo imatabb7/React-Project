@@ -240,19 +240,3 @@ const CourseDetails = () => {
 }
 
 export default CourseDetails
-
-
-
-
-  // useEffect(() => {
-  //   const fetchCourseDetails = async () => {
-  //     try {
-  //       const response = await axios.get(`/courses/${id}`);
-  //       setCourse(response.data); // Assuming response.data contains the course object
-  //     } catch (error) {
-  //       console.error("Failed to fetch course details:", error);
-  //     }
-  //   };
-  
-  //   fetchCourseDetails();
-  // }, [id]);

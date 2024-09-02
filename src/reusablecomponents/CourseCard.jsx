@@ -64,12 +64,12 @@ const CourseCard = ({course }) => {
             <h5>Level : <span>{course.level}</span></h5>
             <p> {course.description} </p>
         </div>
-        <button className='btn btn1' onClick={handleToCart}>
+        <Link className='btn btn1' to={"/signup"}>
             <span>
             <small>Enroll Now</small>
             <small>Enroll Now</small>
             </span>
-        </button>
+        </Link>
         <Link className='btn'  to={`/courseDetails/${course.id}`} >
             
             <span>

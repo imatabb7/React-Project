@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import shape3 from '../assets/images/shape_3.png';
@@ -10,31 +10,22 @@ import shape4 from '../assets/images/shape_4.png';
 const Counter = () => {
     const [counterState , setCounterState] = useState(false);
     const [scrollY, setScrollY] = useState(0);
-  const Scroll = () => {
-    // setScrollY((window.scrollY) );
-  };
-  useEffect(() => {
-    window.addEventListener('scroll', Scroll);
-    return () => {
-      window.removeEventListener('scroll', Scroll);
+    const Style1 = {
+        transform: `translateY(${scrollY * 0.1}px)`,
+        transition: 'transform 1s ease-out',
     };
-  }, []);
-  const Style1 = {
-    transform: `translateY(${scrollY * 0.1}px)`,
-    transition: 'transform 1s ease-out',
-  };
-  const Style2 = {
-    transform: `translateY(${scrollY * -0.1}px)`,
-    transition: 'transform 1s ease-out',
-  };
-  const Style3 = {
-    transform: `translateY(${scrollY * 0.1}px)`,
-    transition: 'transform 1s ease-out',
-  };
-  const Style4 = {
-    transform: `translateY(${scrollY * -0.1}px)`,
-    transition: 'transform 1s ease-out',
-  };
+    const Style2 = {
+        transform: `translateY(${scrollY * -0.1}px)`,
+        transition: 'transform 1s ease-out',
+    };
+    const Style3 = {
+        transform: `translateY(${scrollY * 0.1}px)`,
+        transition: 'transform 1s ease-out',
+    };
+    const Style4 = {
+        transform: `translateY(${scrollY * -0.1}px)`,
+        transition: 'transform 1s ease-out',
+    };
   return (
     <>
         <ScrollTrigger onEnter={()=> setCounterState(true)} onExit={()=> setCounterState(false)}>

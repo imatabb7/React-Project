@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import Banner from '../../components/banner/Banner'
 import { FaRegPaperPlane} from 'react-icons/fa'
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const LogIn = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [log , setLog] = useState('');
   const [error, setError] = useState('');
 
 
@@ -24,7 +24,7 @@ const LogIn = () => {
 
       if (response.data.length > 0) {
           console.log("User authenticated");
-          
+
       } else {
           setError('Invalid email or password');
       }
@@ -67,15 +67,14 @@ const LogIn = () => {
                         </div>
                     </div>
                 </div>
-                <button type="submit" class="btn mb-5">
+                <Link type="submit" class="btn mb-5" to = {"/"}>
                   <span>
                     <small>Login</small>
                     <small>Login</small>
                   </span>
                   <FaRegPaperPlane className='ms-2' />
-                </button>
+                </Link>
                 {error && <p className="text-danger">{error}</p>}
-                {log && <p className="text-primary">{log}</p>}
                 <p class="mb-0 text-center">Don't Have an account? <a href='/signup'> Register here</a> </p>
 
               </div>
