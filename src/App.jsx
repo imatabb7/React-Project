@@ -18,7 +18,6 @@ export default function App() {
       children: [
         {path:"" , element : <Home/>},
         {path:"courses" , element : <Courses/>},
-        {path:"courseDetails" , element : <CourseDetails/>},
         {path:"courseDetails/:id" , element : <CourseDetails/>},
         {path: "about" , element : <About/>},
         {path: "contact" , element : <Contact/>},
