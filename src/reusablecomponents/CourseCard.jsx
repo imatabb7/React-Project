@@ -3,8 +3,8 @@ import { BsArrowRight } from "react-icons/bs";
 import { GoBook } from "react-icons/go";
 import { FaBars } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
-import { CartContext } from '../hooks/CartContext';
-import { addToCart, getCart } from '../api/cart';
+// import { CartContext } from '../hooks/CartContext';
+// import { addToCart, getCart } from '../api/cart';
 
 const CourseCard = ({course }) => {
     const [popCard , setPopCard] = useState(false);
