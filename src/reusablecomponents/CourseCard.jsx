@@ -10,16 +10,16 @@ const CourseCard = ({course }) => {
     const [popCard , setPopCard] = useState(false);
 
 
-   const { setCounter, cartItems, setCartItems } = useContext(CartContext);
-   const handleToCart = async () => {
-    const isAlreadyInCart = cartItems.some(item => item.id === course.id);
-    if (!isAlreadyInCart) {
-      await addToCart(course);
-      const updatedCart = await getCart();
-      setCartItems(updatedCart);
-      setCounter(updatedCart.length);
-    }
-  };  
+//    const { setCounter, cartItems, setCartItems } = useContext(CartContext);
+//    const handleToCart = async () => {
+//     const isAlreadyInCart = cartItems.some(item => item.id === course.id);
+//     if (!isAlreadyInCart) {
+//       await addToCart(course);
+//       const updatedCart = await getCart();
+//       setCartItems(updatedCart);
+//       setCounter(updatedCart.length);
+//     }
+//   };  
     
   return (
       <>
